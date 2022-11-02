@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'poppins';
+  src: 
+  url('Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins-light';
+  src: url('Poppins-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	font-family:  'poppins-light';
+	user-select: none;
+	font-size: 16px;
+    line-height: 1.8;
+}
+
+h2,h3,h4{
+	font-family:  'poppins';
+	margin-bottom: 0px;
+}
+
+a{
+	color:  orange;
+}
+
+.center{
+	text-align:  center;
+}
+
+.page-house{
+	margin-right: auto;
+	margin-left:  auto;
+}
+
+.page-row{
+	width:  100%;
+	justify-content:  center;
+	display:  block;
+}
+
+.page-col-6{
+/*	width:  49%;*/
+	margin: 0;
+	float:  left;
+	padding:  0px;
+	padding-bottom: 20px;
+}
+
+.page-col-12{
+	width:  100%;
+	padding:  10px 0;
+}
+.navbar{
+	text-align:  left;
+	padding-left: 0px ;
+	list-style-type:  none;
+	white-space: nowrap;
+	width:  100%;
+}
+
+.navbar > li{
+	display: inline;
+	margin:  0px;
+	padding:  3px 10px;
+}
+
+.navbar > li > a{
+	text-decoration:  none;
+	text-transform:  uppercase;
+}
+
+.navbar .left{
+	width:  fit-content;
+	display: inline-block;
+}
+.navbar .right{
+	float: right;
+	width:  fit-content;
+	display: inline-block;
+}
+
+.top-row{
+	padding-top:  40px;
+	text-align:  right;
+}
+
+.top-row > h1{
+	font-size: 80px;
+	margin-bottom:  0px;
+}
+
+.top-row > h4{
+	font-family: sans-serif;
+}
+
+.top-row > h1 > span{
+	color:  grey;
+}
+
+.top-row > i{
+	font-family: 'poppins'; 
+	color: darkgrey;
+	font-size:  15px;
+}
+
+.mid-row{
+	text-align:  center;
+}
+
+.emb-row{
+	width: 100%;
+	text-align:  left;
+}
+
+.emb-row > h3{
+	color:  orange;
+	letter-spacing: 2px;
+	margin: 15px 0px;
+}
+
+.the-skills{
+	width: 100%;
+}
+.skill-list{
+	line-height: 35px;
+}
+
+
+
+.foot-row{
+	padding:  20px 0px;
+}
+
+.card{
+	margin-bottom: 10px;
+	background:  #ffeeffee;
+}
+
+.img{
+	background-size: cover;
+	background:  orange;
+	border-radius:  10px 10px 0 0;
+}
+@media (max-width:  1100px){
+	.page-col-6{
+		display: block;
+		width: 100%;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.page-col-6.cards{
+		margin-bottom:  0;
+		padding-bottom: 0;
+		padding-top:  0;
+
+	}
+	
+}
+
+@media (min-width: 576px){
+	.page-house{
+		max-width:	540px;
+	}
+}
+
+@media (min-width: 576px){
+	.page-house{
+		max-width:	540px;
+	}
+}
+
+@media (min-width: 576px){
+	.page-house{
+		max-width:	540px;
+	}
+}
+
+@media (min-width: 576px){
+	.page-house{
+		max-width:	540px;
+	}
+}
